@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display:block;
+    clear: both;
+}
+
+html {
+    min-width: 575px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #fff;
+}
+
+.header, .content-wrapper, .container, .content, .footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    height: 120px;
+    background: #000000;
+    color: #fd0000;
+    
+}
+
+.footer {
+    height: 100px;
+    background: #000000;
+    color: #868938;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100%;
+    min-width: 575px;
+    max-width: 2000px;
+}
+
+.container {
+    flex-wrap: nowrap;
+    flex: 1 0 auto;
+}
+
+.content {
+    
+    flex-direction: column;
+    flex: 1 1 auto;
+    order: 0;
+}
+
+.sidebar {
+    background: #fa0000;
+    flex: 0 0 auto;
+    color:white;
+}
+
+.sidebar1 {
+    width: 200px;
+    order: 1;
+}
+h1{
+    font-size:48px;
+    margin-left: 30%; 
+}
+.foot{
+    margin-left:45%;
+    font-size: 16px;
+}
+.custimg{
+    width:45%;
+    float:left;
+    margin-right:20px;
+}
+.mainclose{
+    font-size: 17px;
+}
+.charct{
+    font-size: 20px;
+    
+}
+.custtable{
+    border:5px solid black;
+    color:black;
+    text-align: center;
+    width:90%;
+    align-self: center;
+}
+.cont{
+    text-align: center;
+    font-size: 19px;
+}
+td{
+    border:5px solid black;
+}
+.custlist li{
+    list-style: none;
+    font-size: 22px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background: rgba(0,0,0,0);
+    transition: all 0.3s ease;
+}
+.custlist li a{
+    color:white;
+    text-decoration: none;
+}
+.custlist{
+    margin:0;
+    padding: 0;
+}
+.custlist li:hover{
+    font-size: 26px;
+    background: rgba(0,0,0,0.07);
+}
+.custlist li a:hover{
+    color:#efe95b;
+}

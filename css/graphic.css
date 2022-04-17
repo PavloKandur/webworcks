@@ -1,0 +1,27 @@
+body{
+    background: #BFB411;
+}
+.listivka{
+    width: 80%;
+    margin: 100px 150px;
+    border:5px #45761b solid;
+    border-radius: 15px;
+}
+.vikupalchik{
+    margin:20px 100px;
+    border-radius: 0px 30px 0px 30px;
+    border:10px #a27f7f solid;
+    width: 400px;
+}
+.bigfinger{
+    width:400px;
+    height: 300px;
+    margin-bottom: 120px;
+    margin-left: 100px;
+}
+.myceleb{
+    width: 200px;
+    margin-bottom: 150px;
+    margin-right:0px;
+    margin-left:50px;
+}
