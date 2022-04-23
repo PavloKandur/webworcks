@@ -1,0 +1,27 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: #eee;
+    width: 80%;
+    margin: auto;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+.owl-carousel .item{
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+    width: 250px;
+}
+
+.owl-carousel .item img{
+    height: 10rem;
+    width: auto;
+}
