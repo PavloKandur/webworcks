@@ -1,0 +1,56 @@
+.toppage{
+    height: 120px;
+    background-color: #b9b952;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+.botpage{
+    background-color: #40c4b0;
+    flex-shrink: 0;
+}
+footer h1{
+    text-align: center;
+    font-size: 15px;
+}
+footer{
+    height: 40px;
+    margin-top: -40px;
+}
+.content{
+    flex: 1 0 auto;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.big-icon{
+    margin:20 20px;
+    font-size: 100px;
+    background-color: #738330;
+}
+.bi-wrench{
+    color:#7e908f
+}
+.bi-watch{
+    color: #69797c
+}
+.bi-water{
+    color: aqua;
+}
+.bi-suit-heart-fill{
+    color: darkred;
+}
+.bi-scissors{
+    color: burlywood;
+}
+.col-sm-12 i:hover {
+    box-shadow: 0 0 20px #ffff00;
+}
+.col-sm-12 i {
+    border-radius: 100%;
+}
