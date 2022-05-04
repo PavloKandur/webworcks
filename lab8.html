@@ -1,8 +1,9 @@
-<!docktype html>
+<!DOCTYPE html>
 <html>
     
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=0">
         <title>Робота з Bootstrap</title>
         <link href="css/lab8.css" rel="stylesheet">
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -10,8 +11,11 @@
     </head>
     
     <body>
+        <!--Header -->
         <header class="toppage"><h1 class="h1 display-1">Робота з Bootstrap</h1></header>
-        <div class="container content">
+        <!--Головний контейнер-->
+        <div class="container content"> 
+            <!--Navbar-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -48,7 +52,9 @@
                 </div>
               </div>
             </nav>
+            <!--Розбиття на сітки-->
             <div class="row">
+                <!--Ліва частина сторінки accordion-->
                 <div class="col-md-6">
                     <div class="accordion" id="accordionExample">
                       <div class="accordion-item">
@@ -89,6 +95,7 @@
                       </div>
                     </div>
                 </div>
+                <!--Права частина сторінки buttons-->
                 <div class="col-md-6">
                     <button type="button" class="btn btn-primary">Primary</button>
                     <button type="button" class="btn btn-secondary">Secondary</button>
@@ -100,7 +107,8 @@
                     <button type="button" class="btn btn-dark">Dark</button>
                     <button type="button" class="btn btn-link">Link</button>
                 </div>
-                <div class="col-sm-12 rounded-circle">
+                <!--нижня частина сторінки icons-->
+                <div class="col-sm-12">
                     <i class="bi bi-x-octagon big-icon"></i>
                     <i class="bi bi-wrench big-icon"></i>
                     <i class="bi bi-yin-yang big-icon"></i>
@@ -111,7 +119,9 @@
                     <i class="bi bi-scissors big-icon"></i>
                     <i class="bi bi-play-circle-fill big-icon"></i>
                 </div>
+                
             </div>
+            
         </div>
         
         
@@ -120,8 +130,9 @@
         
         
         
-        
-        <footer class="botpage"><h1>Лабораторна робота №8</h1></footer>
+        <!--Footer-->
+        <footer class="botpage"><h2>Лабораторна робота №8</h2></footer>
+        <!--Скрипт для роботи bootstrap-->
         <script src="js/bootstrap.bundle.js"></script>
         
     </body>
