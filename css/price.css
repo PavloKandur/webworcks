@@ -1,0 +1,87 @@
+.toppage{
+    height: 120px;
+    background-color: #6CAEDD;
+    
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Pangolin', cursive;
+}
+.botpage{
+    background-color: #364850;
+    flex-shrink: 0;
+}
+footer h2{
+    text-align: center;
+    font-size: 15px;
+    color:cornflowerblue;
+}
+footer{
+    height: 25px;
+    margin-top: -25px;
+}
+.content{
+    flex: 1 0 auto;
+    margin-bottom: 30px;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+}
+body{
+    color: #fff;
+}
+
+.desk{
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+}
+
+.myic{
+    color:brown;
+    font-size: 20px;
+}
+
+.thesis{
+    font-size: 30px;
+    text-align: center;
+    margin:15px 0px;
+}
+.mytxt{
+    font-size:24px;
+    text-align: center;
+}
+
+.act:hover{
+    background-color: bisque;
+}
+
+table{
+    table-layout: fixed;
+    width:80%;
+    border-collapse: collapse;
+    border:3px solid brown;
+    margin:auto;
+}
+
+.tbl{
+    border:3px solid brown;
+}
+
+.custim{
+    width:200px;
+    height: 200px;
+}
+
+.mynav{
+    display:block;
+    margin:auto;
+}
