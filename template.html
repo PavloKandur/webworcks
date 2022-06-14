@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кандур Павло</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+
+<style>
+    .content{flex: 1 0 auto; margin-bottom: 55px;}
+    .botpage{flex-shrink: 0;}
+    footer{height: 50px;margin-top: -50px;border:solid 3px red;margin-left: 20px;
+    margin-right: 20px;}
+    html, body{height: 100%;}
+    body{display: flex; flex-direction: column;font-family: 'Roboto', sans-serif;}
+    .foh2{text-align: center;font-size: 18px; color:#009dff; padding: 12px;}
+    .myh1{font-family: 'Comfortaa', cursive;font-size: 52px;text-align: center;color:red;
+    text-shadow: 1px 1px 2px black; padding: 20px; }
+    .myim{height: 300px; width: 50px;}
+    .desk{font-size: 24px;text-align: center;padding: 25px;}
+    a{text-decoration: none;}
+    .tbl{border:3px solid black;}
+    table{table-layout: fixed;width:80%;border-collapse: collapse;border:3px solid black;margin:auto;padding: 20px;}
+    .mytbl{background-color: #0089ff; padding: 10px;}
+    .mytxt{color:white;text-align: center}
+    .inf{text-align: center}
+    .suctim{height: 120px;width: 70px;}
+    
+</style>
+    
+</head>
+
+<body>
+    <h1 class="myh1">Новинки Samsung</h1>
+<main class="container content">
+    <div class="owl-carousel owl-theme">
+							
+	<div><img class="myim" src="img/1.jpg"></div>
+
+	<div><img class="myim" src="img/2.jpg"></div>
+
+	<div><img class="myim" src="img/3.jpg"></div>
+
+	<div><img class="myim" src="img/4.jpg"></div>
+
+
+</div>
+    <h2 class="desk">Порівняльна характеристика</h2>
+	<div class="row">
+		<div class="col-12">
+             <table>
+                        <tr >
+                            <td class="tbl mytbl"><p class="mytxt">Модель</p></td>
+                            <td class="tbl"><p class="inf">Samsung Galaxy Note 9</p></td>
+                            <td class="tbl"><p class="inf">Samsung Galaxy Note 10 Lite</p></td>
+                            <td class="tbl"><p class="inf">Samsung Galaxy M21</p></td>
+                        </tr>
+                        <tr>
+                            <td class="tbl mytbl"><p class="mytxt">Ціна</p></td>
+                            <td class="tbl"><p class="inf" >14 165 грн</p></td>
+                            <td class="tbl"><p class="inf">12 999 грн</p></td>
+                            <td class="tbl"><p class="inf">6 299 грн</p></td>
+                        </tr>
+                        <tr>
+                            <td class="tbl mytbl"><p class="mytxt">Вигляд</p></td>
+                            <td class="tbl"> <img src="img/tbl1.jpg" width="70%" display="block" margin="auto"></td>
+                            <td class="tbl"> <img src="img/tbl2.jpg" width="70%"></td>
+                            <td class="tbl"> <img src="img/tbl3.jpg" width="40%"></td>
+                        </tr>
+                    </table>
+            
+		</div>
+	</div>
+
+</main>
+<footer class="botpage"><h2 class="foh2"><a href="https://twitter.com/Roflan_Bogdan">©Кандур КН-207</a></h2></footer>
+<!-- JS-->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>	
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="owlcarousel/owl.carousel.js"> </script>
+<script>
+
+	$(document).ready(function(){
+
+		$('.owl-carousel').owlCarousel({
+            loop:true,
+            responsive:{
+            0:{items:4}
+        }
+        });
+
+	});
+
+</script>
+</body>
+</html>
